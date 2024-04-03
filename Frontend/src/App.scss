@@ -1,0 +1,14 @@
+$primary-black-1: #111111;
+
+body 
+{
+    background-color: $primary-black-1;
+    color:white;
+}
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins";
+}
