@@ -1,18 +1,20 @@
 .hero {
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
   width: 100%;
   height: 100vh;
   position: relative;
-  overflow: hidden;
+  // overflow: hidden;
 }
 .hero-inner {
   height: 95%;
   width: 97%;
   // border:2px solid white;
   border-radius: 10px;
-//   backdrop-filter: blur(15px);
+  backdrop-filter: blur(3px);
+  border: 1px solid #3a3a3a;
   overflow: hidden;
   box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
 }
@@ -24,9 +26,20 @@
   align-items:center;
   padding-left: 5rem;
   font-size: 3rem;
+
+  p
+  {
+    font-family: "Staatliches", sans-serif;
+    font-size: 10rem;
+  }
 }
 canvas 
 {
     position: absolute;
     z-index: -1;
+}
+#home 
+{
+  height: 100vh;
+  z-index: 9;
 }
