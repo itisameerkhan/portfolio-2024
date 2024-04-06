@@ -10,7 +10,6 @@ const Hero = () => {
     <div className="hero">
       <canvas></canvas>
       <div className="hero-inner"></div>
-
     </div>
   );
 };
