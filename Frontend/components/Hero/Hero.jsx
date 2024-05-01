@@ -11,6 +11,7 @@ const Hero = () => {
       <canvas></canvas>
       <div className="hero-inner">
         <p className="name">Ameer khan B</p>
+        <p className="hero-about">Iam a Electrical Engineer</p>    
       </div>
     </div>
   );

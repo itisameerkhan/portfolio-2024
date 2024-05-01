@@ -1,5 +1,15 @@
 $primary-black-1: #111111;
 
+@font-face {
+    font-family: "Cabinet Grotesk";
+    src: url(../Fonts/CabinetGrotesk/CabinetGrotesk_Complete/Fonts/OTF/CabinetGrotesk-Regular.otf);
+}
+
+@font-face {
+    font-family:"GeneralSans";
+    src: url(../Fonts/GeneralSans/GeneralSans_Complete/Fonts/OTF/GeneralSans-Regular.otf);
+}
+
 body 
 {
     background-color: $primary-black-1;
@@ -10,7 +20,7 @@ body
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    font-family: "Roboto";
+    font-family: "Cabinet Grotesk";
 }
 a 
 {
