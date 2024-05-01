@@ -9,7 +9,9 @@ const Hero = () => {
   return (
     <div className="hero">
       <canvas></canvas>
-      <div className="hero-inner"></div>
+      <div className="hero-inner">
+        <p className="name">Ameer khan B</p>
+      </div>
     </div>
   );
 };
