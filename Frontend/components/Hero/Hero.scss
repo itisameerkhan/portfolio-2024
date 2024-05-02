@@ -57,11 +57,13 @@ $color-14: #8c8c73;
   }
   .typed {
     font-weight: bolder;
+    // color: rgb(0, 150, 0);
   }
 }
 canvas {
   position: absolute;
   z-index: -1;
+  width: 100%;
 }
 #home {
   height: 100vh;
