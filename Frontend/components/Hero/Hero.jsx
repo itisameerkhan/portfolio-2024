@@ -11,28 +11,6 @@ const Hero = () => {
 
   const [name, setName] = useState("Ameer khan");
 
-  const handleMouseOver = () => {
-    const letters = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
-
-    let iterations = 0;
-
-    const interval = setInterval(() => {
-      const newName = name
-        .split("")
-        .map((letter, index) => {
-          if (index < iterations) {
-            return name[index];
-          }
-          return letters[Math.floor(Math.random() * 26)];
-        })
-        .join("");
-      setName(newName);
-
-      if (iterations >= name.length) clearInterval(interval);
-      iterations += 1/3;
-    }, 30);
-  };
-
   useEffect(() => {
     animateFn();
 
@@ -81,13 +59,7 @@ const Hero = () => {
       <div className="hero-inner">
         <div>
           {/* <p className="name">Ameer khan</p> */}
-          <p
-            className="hacker"
-            onMouseOver={handleMouseOver}
-            data-value="Ameer khan"
-          >
-            {name}
-          </p>
+          <p className="hacker">{name}</p>
         </div>
         <div className="hero-about-main">
           <p className="hero-about line">Iam a </p>
