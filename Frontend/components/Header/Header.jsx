@@ -8,7 +8,7 @@ const Header = () => {
         <img src={aksvg} alt="logo" />
       </a>
       <a href="#about">
-        <button>
+        <button className="header-btn">
           <span className="span-mother">
             <span>A</span>
             <span>b</span>
@@ -25,24 +25,26 @@ const Header = () => {
           </span>
         </button>
       </a>
-      <button>
-        <span className="span-mother">
-          <span>S</span>
-          <span>k</span>
-          <span>i</span>
-          <span>l</span>
-          <span>l</span>
-          <span>s</span>
-        </span>
-        <span className="span-mother2">
-          <span>S</span>
-          <span>k</span>
-          <span>i</span>
-          <span>l</span>
-          <span>l</span>
-          <span>s</span>
-        </span>
-      </button>
+      <a href="#skills">
+        <button>
+          <span className="span-mother">
+            <span>S</span>
+            <span>k</span>
+            <span>i</span>
+            <span>l</span>
+            <span>l</span>
+            <span>s</span>
+          </span>
+          <span className="span-mother2">
+            <span>S</span>
+            <span>k</span>
+            <span>i</span>
+            <span>l</span>
+            <span>l</span>
+            <span>s</span>
+          </span>
+        </button>
+      </a>
       <button>
         <span className="span-mother">
           <span>w</span>

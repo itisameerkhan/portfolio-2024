@@ -69,6 +69,12 @@ canvas {
   height: 100vh;
   z-index: 9;
 }
+.hacker {
+  font-size: 10rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+}
 @media screen and (max-width: 1200px) {
   .name {
     font-size: 10rem !important;

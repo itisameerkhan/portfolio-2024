@@ -1,5 +1,6 @@
 import "./Hero.scss";
-import { useEffect, useRef } from "react";
+import "./Button.css";
+import { useEffect, useRef, useState } from "react";
 import { animateFn } from "../../constants/animate";
 import { gsap } from "gsap";
 import SplitType from "split-type";
@@ -7,6 +8,30 @@ import Typed from "typed.js";
 
 const Hero = () => {
   const typingRef = useRef(null);
+
+  const [name, setName] = useState("Ameer khan");
+
+  const handleMouseOver = () => {
+    const letters = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+
+    let iterations = 0;
+
+    const interval = setInterval(() => {
+      const newName = name
+        .split("")
+        .map((letter, index) => {
+          if (index < iterations) {
+            return name[index];
+          }
+          return letters[Math.floor(Math.random() * 26)];
+        })
+        .join("");
+      setName(newName);
+
+      if (iterations >= name.length) clearInterval(interval);
+      iterations += 1/3;
+    }, 30);
+  };
 
   useEffect(() => {
     animateFn();
@@ -35,7 +60,7 @@ const Hero = () => {
         "React Developer",
         "Frontend Developer",
         "Backend Developer",
-        "Proud Indian"
+        "Proud Indian",
       ],
       typeSpeed: 50,
       backSpeed: 30,
@@ -54,8 +79,15 @@ const Hero = () => {
     <div className="hero">
       <canvas></canvas>
       <div className="hero-inner">
-        <div data-animate>
-          <p className="name">Ameer khan</p>
+        <div>
+          {/* <p className="name">Ameer khan</p> */}
+          <p
+            className="hacker"
+            onMouseOver={handleMouseOver}
+            data-value="Ameer khan"
+          >
+            {name}
+          </p>
         </div>
         <div className="hero-about-main">
           <p className="hero-about line">Iam a </p>
