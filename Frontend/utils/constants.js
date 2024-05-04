@@ -11,24 +11,3 @@ export const cloudinary_img = [
   "hjloh0vurdhuqxlamvua",
 ];
 
-export const hacker = () => {
-  const letters = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
-
-  let iterations = 0;
-
-  const interval = setInterval(() => {
-    const newName = name
-      .split("")
-      .map((letter, index) => {
-        if (index < iterations) {
-          return name[index];
-        }
-        return letters[Math.floor(Math.random() * 26)];
-      })
-      .join("");
-    // setName(newName);
-
-    if (iterations >= name.length) clearInterval(interval);
-    iterations += 1 / 3;
-  }, 30);
-};
