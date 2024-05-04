@@ -14,25 +14,118 @@ $color-13: #aeae9d;
 $color-14: #8c8c73;
 
 #about {
-  height: 100vh;
+  // height: 100vh;
   width: 100%;
   margin: 0;
   background-color: $color-7;
 }
-
 .about-inner {
   display: flex;
-  gap: 5rem;
-  align-items: start;
+  flex-direction: column;
+  align-items: center;
   justify-content: center;
-  height: 100%;
+  margin: 0rem 5rem;
+  padding: 1rem 0;
+  gap: 2rem;
 
   .about-main {
-    margin: 6rem 10rem;
     p {
+      margin-top: 5rem;
       font-size: 2.5rem;
       text-align: center;
       line-height: 3.5rem;
+    }
+  }
+
+  .about-img {
+    display: flex;
+
+    img {
+      height: 350px;
+      width: 250px;
+      object-fit: cover;
+      object-position: center;
+      border-radius: 10px;
+      border: 6px solid #fff;
+      box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+      &:nth-child(1) {
+        transform: rotate(-10deg);
+      }
+      &:nth-child(2) {
+        transform: rotate(20deg);
+      }
+      &:nth-child(3) {
+        transform: rotate(-8deg);
+      }
+      &:nth-child(4) {
+        transform: rotate(15deg);
+      }
+    }
+  }
+}
+@media screen and (max-width: 1200px) {
+  .about-img {
+    img {
+      height: 300px !important;
+      width: 200px !important;
+    }
+  }
+}
+@media screen and (max-width: 1000px) {
+  .about-main {
+    p {
+      font-size: 2rem !important;
+    }
+  }
+  .about-img {
+    img {
+      height: 250px !important;
+      width: 150px !important;
+    }
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .about-main {
+    p {
+      font-size: 1.5rem !important;
+      line-height: 3rem !important;
+    }
+  }
+  .about-img {
+    img {
+      height: 230px !important;
+      width: 130px !important;
+    }
+  }
+}
+@media screen and (max-width: 600px) {
+  .about-inner {
+    margin: 1rem !important;
+  }
+  .about-main {
+    p {
+      font-size: 1rem !important;
+      line-height: 2rem !important;
+    }
+  }
+  .about-img {
+    img {
+      height: 200px !important;
+      width: 100px !important;
+    }
+  }
+}
+@media screen and (max-width: 600px) {
+  .about-img {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+    img {
+      height: 250px !important;
+      width: 150px !important;
     }
   }
 }

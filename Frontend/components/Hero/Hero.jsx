@@ -58,8 +58,7 @@ const Hero = () => {
       <canvas></canvas>
       <div className="hero-inner">
         <div>
-          {/* <p className="name">Ameer khan</p> */}
-          <p className="hacker">{name}</p>
+          <p className="name">Ameer khan</p>
         </div>
         <div className="hero-about-main">
           <p className="hero-about line">Iam a </p>
