@@ -1,7 +1,7 @@
 import ReactDOM from "react-dom/client";
+import "./App.scss";
 import { Outlet, RouterProvider, createBrowserRouter } from "react-router-dom";
 import Header from "../components/Header/Header.jsx";
-import "./App.scss";
 import Hero from "../components/Hero/Hero.jsx";
 import About from "../components/About/About.jsx";
 import Skills from "../components/Skills/Skills.jsx";
