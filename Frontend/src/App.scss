@@ -1,32 +1,16 @@
-$primary-black-1: #111111;
+$primary-blue-1: #020617;
 
 @font-face {
-  font-family: "Cabinet Grotesk";
-  src: url(../Fonts/CabinetGrotesk/CabinetGrotesk_Complete/Fonts/OTF/CabinetGrotesk-Regular.otf);
-}
-
-@font-face {
-  font-family: "GeneralSans";
-  src: url(../Fonts/GeneralSans/GeneralSans_Complete/Fonts/OTF/GeneralSans-Regular.otf);
-}
-@font-face {
-  font-family: "Overused Grotesk";
-  src: url(../Fonts/OverusedGrotesk/otf/OverusedGrotesk-Medium.otf);
+    font-family: "overusedgrotesk";
+    src: url(../Fonts/OverusedGrotesk/otf/OverusedGrotesk-Medium.otf);
 }
 body {
-  background-color: $primary-black-1;
-  color: white;
+    background-color: $primary-blue-1;
+    color:white;
 }
 * {
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
-  font-family: "Overused Grotesk";
-}
-a {
-  color: white;
-  text-decoration: none;
-}
-html {
-  scroll-behavior: smooth;
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "overusedgrotesk";
 }

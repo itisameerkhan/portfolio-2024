@@ -1,0 +1,27 @@
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+
+    .hero-desc {
+        font-size: 56px;
+        width: 700px;
+        font-weight: 800;
+        text-align: center;
+        font-family: "Manrope";
+        position: relative;
+
+        span {
+            position: relative;
+
+            img {
+                position: absolute;
+                bottom: -10px;
+                left: 50%;
+                transform: translate(-50%, 0);
+            }
+        }
+    }
+}
