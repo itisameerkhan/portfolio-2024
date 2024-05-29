@@ -1,16 +1,31 @@
 $primary-blue-1: #020617;
+$primary-blue-2: #576DFF;
 
 @font-face {
-    font-family: "overusedgrotesk";
-    src: url(../Fonts/OverusedGrotesk/otf/OverusedGrotesk-Medium.otf);
+  font-family: "overusedgrotesk";
+  src: url(../Fonts/OverusedGrotesk/otf/OverusedGrotesk-Medium.otf);
 }
 body {
-    background-color: $primary-blue-1;
-    color:white;
+  background-color: $primary-blue-1;
+  color: white;
 }
 * {
-    padding:0;
-    margin: 0;
-    box-sizing: border-box;
-    font-family: "overusedgrotesk";
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "overusedgrotesk";
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: $primary-blue-2;
+  border-radius: 10px;
+  width: 2px;
 }
