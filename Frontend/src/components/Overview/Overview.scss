@@ -1,80 +1,6 @@
 $primary-blue-1: #020617;
 $primary-blue-2: #576dff;
 
-// .overview {
-//   height: 100vh;
-//   width: 100%;
-//   padding: 3rem 10rem;
-//   display: grid;
-// }
-// .about-me {
-//   position: relative;
-//   width: 250px;
-//   height: 400px;
-//   transition: all 100ms ease-in-out;
-
-//   img {
-//     height: 400px;
-//     width: 250px;
-//     object-fit: cover;
-//     object-position: center;
-//     border-radius: 10px;
-//     border: 2px solid $primary-blue-2;
-//     position: relative;
-//   }
-//   .layout-1 {
-//     position: absolute;
-//     height: 400px;
-//     width: 250px;
-//     transition: all 100ms ease-in-out;
-//     border-radius: 10px;
-//     background: linear-gradient(
-//       rgba(36, 66, 119, 0.15) 60%,
-//       rgb(35, 65, 119) 99.043%,
-//       rgb(53, 69, 95) 100%
-//     );
-//     opacity: 0.8;
-//     z-index: 9 !important;
-//   }
-//   p {
-//     position: absolute;
-//     bottom: 10px;
-//     font-size: 1.2rem;
-//     z-index: 9;
-//     left: 50%;
-//     text-align: center;
-//     transform: translate(-50%, 0);
-//     width: 50%;
-//   }
-//   &:hover {
-//     .layout-1 {
-//       opacity: 0.8;
-//        background: linear-gradient(
-//       rgba(36, 66, 119, 0.15) 50%,
-//       rgb(35, 65, 119) 100%,
-//       rgb(53, 69, 95) 100%
-//     );
-//     }
-//     .north-east {
-//         visibility: visible;
-//         top: 10px;
-//     }
-//   }
-//   .north-east {
-//     position: absolute;
-//     transition: all 100ms ease-in-out;
-//     top: 5px;
-//     z-index: 9;
-//     right: 10px;
-//     font-size: 1rem;
-//     border:2px solid skyblue;
-//     padding: 1px;
-//     color: skyblue;
-//     border-radius: 50%;
-//     visibility: hidden;
-//   }
-// }
-
 .overview {
   display: grid;
   justify-content: center;
@@ -283,7 +209,7 @@ $primary-blue-2: #576dff;
       rgb(36, 115, 236) 0%,
       rgba(99, 102, 241, 0) 100%
     );
-    background-color: #18202D;
+    background-color: #18202d;
 
     p {
       &:nth-child(1) {
@@ -303,8 +229,7 @@ $primary-blue-2: #576dff;
 
     &:hover {
       img {
-        height: 65px;
-        width: 65px;
+        transform: scale(1.2);
       }
       .north-east {
         top: 10px;
@@ -358,8 +283,7 @@ $primary-blue-2: #576dff;
     rgb(36, 115, 236) 0%,
     rgba(99, 102, 241, 0) 100%
   );
-  background-color: #18202D;
-
+  background-color: #18202d;
 
   display: flex;
   flex-direction: column;
@@ -456,8 +380,8 @@ $primary-blue-2: #576dff;
       margin: 0;
       padding: 0;
       img {
-        height: 30px !important;
-        width: 30px !important;
+        height: 50px !important;
+        width: 50px !important;
       }
     }
   }
@@ -501,8 +425,8 @@ $primary-blue-2: #576dff;
       margin: 0;
       padding: 1rem 3rem !important;
       img {
-        height: 30px !important;
-        width: 30px !important;
+        height: 50px !important;
+        width: 50px !important;
       }
     }
   }
@@ -542,12 +466,34 @@ $primary-blue-2: #576dff;
     margin: 0 !important;
     padding: 1rem 3rem !important;
 
+    .skill-icons {
+      transition: all 200ms ease-in-out;
+      .skill-icon-1 {
+        width: 150px !important;
+        padding: 0 !important;
+        justify-content: space-between !important;
+      }
+      .skill-icon-2 {
+        width: 200px !important;
+        padding: 0 !important;
+        justify-content: space-between !important;
+      }
+    }
+
+    &:hover {
+      .skill-icons {
+        img {
+          transform: scale(1.2) !important;
+        }
+      }
+    }
+
     div {
       margin: 0;
       padding: 1rem 3rem !important;
       img {
-        height: 40px !important;
-        width: 40px !important;
+        height: 50px !important;
+        width: 50px !important;
       }
     }
   }
@@ -600,17 +546,26 @@ $primary-blue-2: #576dff;
     margin: 0 !important;
     padding: 1rem 3rem !important;
 
+    .skill-icons {
+      .skill-icon-1 {
+        width: 150px !important;
+        padding: 0 !important;
+        justify-content: space-between !important;
+      }
+      .skill-icon-2 {
+        width: 200px !important;
+        padding: 0 !important;
+        justify-content: space-between !important;
+      }
+    }
+
     div {
       margin: 0;
       padding: 1rem 3rem !important;
 
-      .skill-icon-1 {
-        // border: 2px solid red !important;
-        // width: 100px;
-      }
       img {
-        height: 40px !important;
-        width: 40px !important;
+        height: 50px !important;
+        width: 50px !important;
       }
     }
   }
