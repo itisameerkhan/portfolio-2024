@@ -174,7 +174,7 @@ $primary-blue-2: #576dff;
       object-fit: contain;
       object-position: 100%;
       transition: all 200ms ease-in-out;
-      z-index: -9;
+      z-index: 1;
     }
     .north-east {
       position: absolute;
@@ -213,6 +213,7 @@ $primary-blue-2: #576dff;
       rgb(36, 115, 236) 0%,
       rgba(99, 102, 241, 0) 100%
     );
+    background-color: #18202d;
   }
   .socials {
     width: 400px;
@@ -227,6 +228,8 @@ $primary-blue-2: #576dff;
       rgb(36, 115, 236) 0%,
       rgba(99, 102, 241, 0) 100%
     );
+    background-color: #18202d;
+
     height: 230px;
 
     .c {
@@ -280,6 +283,7 @@ $primary-blue-2: #576dff;
       rgb(36, 115, 236) 0%,
       rgba(99, 102, 241, 0) 100%
     );
+    background-color: #18202D;
 
     p {
       &:nth-child(1) {
@@ -354,6 +358,8 @@ $primary-blue-2: #576dff;
     rgb(36, 115, 236) 0%,
     rgba(99, 102, 241, 0) 100%
   );
+  background-color: #18202D;
+
 
   display: flex;
   flex-direction: column;
@@ -572,7 +578,7 @@ $primary-blue-2: #576dff;
     width: 160px !important;
     height: 270px !important;
     background-size: cover;
-    margin:  0 !important;
+    margin: 0 !important;
   }
   .b {
     width: 90% !important;
@@ -598,10 +604,10 @@ $primary-blue-2: #576dff;
       margin: 0;
       padding: 1rem 3rem !important;
 
-    .skill-icon-1 {
-      // border: 2px solid red !important;
-      // width: 100px;
-    }
+      .skill-icon-1 {
+        // border: 2px solid red !important;
+        // width: 100px;
+      }
       img {
         height: 40px !important;
         width: 40px !important;
