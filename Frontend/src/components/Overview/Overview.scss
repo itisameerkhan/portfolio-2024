@@ -540,8 +540,8 @@ $primary-blue-2: #576dff;
       margin: 0;
       padding: 1rem 3rem !important;
       img {
-        height: 30px !important;
-        width: 30px !important;
+        height: 40px !important;
+        width: 40px !important;
       }
     }
   }
@@ -565,27 +565,31 @@ $primary-blue-2: #576dff;
       "e e" !important;
     padding: 0 !important;
     gap: 1rem !important;
-    margin: 0 auto !important;
+    place-items: center !important;
+    padding: 0 !important;
   }
   .about {
-    width: 180px !important;
+    width: 160px !important;
     height: 270px !important;
     background-size: cover;
+    margin:  0 !important;
   }
   .b {
-    width: 100% !important;
+    width: 90% !important;
     height: 200px !important;
   }
   .socials {
-    width: 170px !important;
+    width: 150px !important;
     height: 270px !important;
     margin: 0 !important;
+    padding: 0 !important;
+    margin-right: 40px !important;
   }
   .internships {
-    width: 100% !important;
+    width: 90% !important;
   }
   .skills {
-    width: 100% !important;
+    width: 90% !important;
     height: 360px !important;
     margin: 0 !important;
     padding: 1rem 3rem !important;
@@ -593,9 +597,14 @@ $primary-blue-2: #576dff;
     div {
       margin: 0;
       padding: 1rem 3rem !important;
+
+    .skill-icon-1 {
+      // border: 2px solid red !important;
+      // width: 100px;
+    }
       img {
-        height: 30px !important;
-        width: 30px !important;
+        height: 40px !important;
+        width: 40px !important;
       }
     }
   }
