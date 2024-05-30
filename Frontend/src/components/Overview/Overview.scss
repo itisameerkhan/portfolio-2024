@@ -418,10 +418,11 @@ $primary-blue-2: #576dff;
   .overview {
     grid-template-columns: 200px;
     grid-template-rows: 200px;
-    grid-template-areas: "a b b"
-                         "a e e"
-                         "c d d";
-    padding: 0 !important
+    grid-template-areas:
+      "a b b"
+      "a e e"
+      "c d d";
+    padding: 0 !important;
   }
   .about {
     width: 200px !important;
@@ -434,7 +435,7 @@ $primary-blue-2: #576dff;
   }
   .socials {
     width: 360px !important;
-    height: 360px  !important;
+    height: 360px !important;
   }
   .internships {
     width: 519px !important;
@@ -459,12 +460,13 @@ $primary-blue-2: #576dff;
   .overview {
     grid-template-columns: 200px;
     grid-template-rows: 200px;
-    grid-template-areas: "a c"
-                         "a c"
-                         "b b"
-                         "d d"
-                         "e e";
-    padding: 0 !important
+    grid-template-areas:
+      "a c"
+      "a c"
+      "b b"
+      "d d"
+      "e e";
+    padding: 0 !important;
   }
   .about {
     width: 250px !important;
@@ -477,8 +479,107 @@ $primary-blue-2: #576dff;
   }
   .socials {
     width: 250px !important;
-    height: 415px  !important;
+    height: 415px !important;
     margin-left: 4rem;
+  }
+  .internships {
+    width: 100% !important;
+  }
+  .skills {
+    width: 100% !important;
+    height: 360px !important;
+    margin: 0 !important;
+    padding: 1rem 3rem !important;
+
+    div {
+      margin: 0;
+      padding: 1rem 3rem !important;
+      img {
+        height: 30px !important;
+        width: 30px !important;
+      }
+    }
+  }
+}
+@media screen and (max-width: 600px) {
+  .overview {
+    grid-template-columns: 200px;
+    grid-template-rows: 200px;
+    grid-template-areas:
+      "a c"
+      "a c"
+      "b b"
+      "d d"
+      "e e";
+    padding: 0 !important;
+  }
+  .about {
+    width: 200px !important;
+    height: 350px !important;
+    background-size: cover;
+  }
+  .b {
+    width: 100% !important;
+    height: 200px !important;
+  }
+  .socials {
+    width: 200px !important;
+    height: 350px !important;
+    margin: 0 !important;
+  }
+  .internships {
+    width: 100% !important;
+  }
+  .skills {
+    width: 100% !important;
+    height: 360px !important;
+    margin: 0 !important;
+    padding: 1rem 3rem !important;
+
+    div {
+      margin: 0;
+      padding: 1rem 3rem !important;
+      img {
+        height: 30px !important;
+        width: 30px !important;
+      }
+    }
+  }
+}
+@media screen and (max-width: 400px) {
+  html {
+    p {
+      font-size: 14px !important;
+    }
+  }
+  .overview {
+    grid-template-columns: 200px;
+    grid-template-rows: 200px;
+    align-items: center;
+    justify-content: center;
+    grid-template-areas:
+      "a c"
+      "a c"
+      "b b"
+      "d d"
+      "e e" !important;
+    padding: 0 !important;
+    gap: 1rem !important;
+    margin: 0 auto !important;
+  }
+  .about {
+    width: 180px !important;
+    height: 270px !important;
+    background-size: cover;
+  }
+  .b {
+    width: 100% !important;
+    height: 200px !important;
+  }
+  .socials {
+    width: 170px !important;
+    height: 270px !important;
+    margin: 0 !important;
   }
   .internships {
     width: 100% !important;
