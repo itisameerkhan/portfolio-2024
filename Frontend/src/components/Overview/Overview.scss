@@ -1,0 +1,171 @@
+$primary-blue-1: #020617;
+$primary-blue-2: #576dff;
+
+// .overview {
+//   height: 100vh;
+//   width: 100%;
+//   padding: 3rem 10rem;
+//   display: grid;
+// }
+// .about-me {
+//   position: relative;
+//   width: 250px;
+//   height: 400px;
+//   transition: all 100ms ease-in-out;
+
+//   img {
+//     height: 400px;
+//     width: 250px;
+//     object-fit: cover;
+//     object-position: center;
+//     border-radius: 10px;
+//     border: 2px solid $primary-blue-2;
+//     position: relative;
+//   }
+//   .layout-1 {
+//     position: absolute;
+//     height: 400px;
+//     width: 250px;
+//     transition: all 100ms ease-in-out;
+//     border-radius: 10px;
+//     background: linear-gradient(
+//       rgba(36, 66, 119, 0.15) 60%,
+//       rgb(35, 65, 119) 99.043%,
+//       rgb(53, 69, 95) 100%
+//     );
+//     opacity: 0.8;
+//     z-index: 9 !important;
+//   }
+//   p {
+//     position: absolute;
+//     bottom: 10px;
+//     font-size: 1.2rem;
+//     z-index: 9;
+//     left: 50%;
+//     text-align: center;
+//     transform: translate(-50%, 0);
+//     width: 50%;
+//   }
+//   &:hover {
+//     .layout-1 {
+//       opacity: 0.8;
+//        background: linear-gradient(
+//       rgba(36, 66, 119, 0.15) 50%,
+//       rgb(35, 65, 119) 100%,
+//       rgb(53, 69, 95) 100%
+//     );
+//     }
+//     .north-east {
+//         visibility: visible;
+//         top: 10px;
+//     }
+//   }
+//   .north-east {
+//     position: absolute;
+//     transition: all 100ms ease-in-out;
+//     top: 5px;
+//     z-index: 9;
+//     right: 10px;
+//     font-size: 1rem;
+//     border:2px solid skyblue;
+//     padding: 1px;
+//     color: skyblue;
+//     border-radius: 50%;
+//     visibility: hidden;
+//   }
+// }
+
+.overview {
+  display: grid;
+  height: 100vh;
+  width: 100%;
+  padding: 2rem 10rem;
+  grid-template-areas:
+    "a b b"
+    "a c d"
+    "e e d";
+  gap: 1rem;
+  grid-template-columns: 250px;
+  grid-template-rows: 200px;
+
+  .about {
+    grid-area: a;
+    border: 2px solid $primary-blue-2;
+    border-radius: 10px;
+    cursor: pointer;
+    background-image: url("../../imgs/img5.jpg");
+    object-position: center;
+    object-fit: cover;
+    background-position: center;
+    background-size: 120%;
+    background-repeat: no-repeat;
+    position: relative;
+
+    .layout-1 {
+      position: absolute;
+      height: 100%;
+      width: 100%;
+      transition: all 100ms ease-in-out;
+      border-radius: 10px;
+      background: linear-gradient(
+        rgba(36, 66, 119, 0.15) 60%,
+        rgb(35, 65, 119) 99.043%,
+        rgb(53, 69, 95) 100%
+      );
+      opacity: 0.8;
+      z-index: 9 !important;
+      transition: all 100ms ease-in-out;
+    }
+    p {
+      position: absolute;
+      bottom: 10px;
+      left: 50%;
+      font-size: 1.2rem;
+      text-align: center;
+      transform: translate(-50%, 0);
+      z-index: 9;
+    }
+    .north-east {
+      position: absolute;
+      right: 10px;
+      transition: all 100ms ease-in-out;
+      top: 5px;
+      font-size: 1rem;
+      border: 2px solid skyblue;
+      color: skyblue;
+      border-radius: 50%;
+      padding: 2px;
+      visibility: hidden;
+    }
+
+    &:hover {
+      .north-east {
+        top: 10px;
+        visibility: visible;
+      }
+      .layout-1 {
+        opacity: 0.8;
+      }
+    }
+  }
+  .social {
+    grid-area: b;
+    border: 2px solid $primary-blue-2;
+    border-radius: 10px;
+  }
+  .skills {
+    grid-area: c;
+    border: 2px solid $primary-blue-2;
+    border-radius: 10px;
+  }
+  .internships {
+    grid-area: d;
+    border: 2px solid $primary-blue-2;
+    border-radius: 10px;
+  }
+  .projects {
+    grid-area: e;
+    border: 2px solid $primary-blue-2;
+    border-radius: 10px;
+  }
+}
