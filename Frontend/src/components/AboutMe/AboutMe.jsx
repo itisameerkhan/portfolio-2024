@@ -1,15 +1,28 @@
+import { useEffect } from "react";
 import "./AboutMe.scss";
-import img5 from "../../imgs/img5.jpg";
-import img18 from "../../imgs/img18.jpg";
-import img17 from "../../imgs/img17.jpg";
-import img9 from "../../imgs/img9.jpg";
-import img21 from "../../imgs/img21.jpg";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 const AboutMe = () => {
+  useEffect(() => {
+    scrollTop();
+    AOS.init();
+  }, []);
+
+  const scrollTop = () => {
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth",
+    });
+  };
   return (
     <div className="about-me-1">
       <div className="about-me-left">
-        <img src={img5} alt="" />
+        <img
+          src="https://res.cloudinary.com/dnyehgbeu/image/upload/v1717145865/Portfolio/uyl5caoqrnuaoezsq2rc.jpg"
+          alt=""
+          className="about-me-img"
+        />
         <div className="aml-1">
           <p className="aml-1-title">Education</p>
           <div>
@@ -19,8 +32,13 @@ const AboutMe = () => {
             <p>8.11 CGPA</p>
           </div>
         </div>
-        <img src={img9} alt="" />
-        <div className="aml-1">
+        <img
+          src="https://res.cloudinary.com/dnyehgbeu/image/upload/v1717145878/Portfolio/ydab9w2al9sqxeqb361v.jpg"
+          alt=""
+          className="about-me-img"
+          data-aos="fade-up"
+        />
+        <div className="aml-1 aml-2" data-aos="fade-up">
           <div>
             <p>Exercise as a Daily Part of My Routine</p>
             <p style={{ width: "80%" }}>
@@ -31,15 +49,24 @@ const AboutMe = () => {
             </p>
           </div>
         </div>
-        <img src={img21} alt="" />
+        <img
+          src="https://res.cloudinary.com/dnyehgbeu/image/upload/v1717145876/Portfolio/vlgoruf8pckvmebnphev.jpg"
+          alt=""
+          className="about-me-img"
+          data-aos="fade-up"
+        />
       </div>
       <div className="about-me-right">
         <p className="amr-1">
           Hey there! Let me quickly tell you about myself and what I enjoy
           doing.
         </p>
-        <img src={img18} alt="" className="about-me-img" />
-        <div className="amr-2">
+        <img
+          src="https://res.cloudinary.com/dnyehgbeu/image/upload/v1717145872/Portfolio/pdlvww9skqvcnupjqrd4.jpg"
+          alt=""
+          className="about-me-img"
+        />
+        <div className="amr-2" data-aos="fade-up">
           <p>The leap over to web development.</p>
           <p>
             I decided to explore web development, naturally gravitating towards
@@ -54,19 +81,25 @@ const AboutMe = () => {
             efficient solutions for various challenges.
           </p>
         </div>
-        <img src={img17} alt="" className="about-me-img" />
-        <div className="amr-2" style={{marginTop:0}}>
+        <img
+          src="https://res.cloudinary.com/dnyehgbeu/image/upload/v1717145874/Portfolio/u5cc1xkuzym6x9pejixp.jpg"
+          alt=""
+          className="about-me-img"
+          data-aos="fade-up"
+        />
+        <div className="amr-2" style={{ marginTop: 0 }} data-aos="fade-up">
           <p>What I’m doing now.</p>
           <p>
             I am currently learning MERN stack development, diving deep into
             MongoDB, Express, React, and Node.js to build full-stack
-            applications. Enhancing my skills in both
-            frontend and backend development.
+            applications. Enhancing my skills in both frontend and backend
+            development.
           </p>
           <p>
             Alongside this, I am honing my problem-solving abilities with Java,
             C, C++, and MySQL, tackling complex challenges and optimizing
-            solutions. I am open to work and eager to apply my growing expertise.
+            solutions. I am open to work and eager to apply my growing
+            expertise.
           </p>
         </div>
       </div>
