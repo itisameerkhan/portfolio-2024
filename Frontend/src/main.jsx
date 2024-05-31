@@ -7,16 +7,18 @@ import Projects from "./Pages/Projects/Projects.jsx";
 const appRouter = createBrowserRouter([
   {
     path: "/",
-    element: <App />
+    element: <App />,
   },
   {
     path: "/about",
-    element: <About />
+    element: <About />,
   },
   {
     path: "/projects",
-    element: <Projects />
-  }
-])
+    element: <Projects />,
+  },
+]);
 
-ReactDOM.createRoot(document.getElementById("root")).render(<RouterProvider router={appRouter} />);
+ReactDOM.createRoot(document.getElementById("root")).render(
+  <RouterProvider router={appRouter} />
+);
