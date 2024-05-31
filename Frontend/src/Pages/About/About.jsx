@@ -1,11 +1,15 @@
+import AboutMe from "../../components/AboutMe/AboutMe";
 import "./About.scss";
 
 const About = () => {
   return (
-    <div className="about">
+    <div className="about-main">
       <div className="about-overview-1">
         <p>Good morning!</p>
         <p>I'm Ameer Khan, an MERN Stack developer.</p>
+      </div>
+      <div className="about-me-main">
+        <AboutMe />
       </div>
     </div>
   );
