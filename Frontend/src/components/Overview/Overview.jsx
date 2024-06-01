@@ -37,7 +37,7 @@ const Overview = () => {
       <Link className="skills" to={"/skills"}>
         <p>Skills</p>
         <p>My Skills and Tools used on daily basis</p>
-        <div className="skill-icons">
+        <div className="skill-icons-w">
           <img src="https://skillicons.dev/icons?i=react&theme=dark" alt="" />
           <div className="skill-icon-1">
             <img

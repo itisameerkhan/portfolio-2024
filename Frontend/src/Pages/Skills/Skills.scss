@@ -28,6 +28,10 @@ $primary-blue-2: #576dff;
     rgb(36, 115, 236) 0%,
     rgba(99, 102, 241, 0) 100%
   );
+  padding: 3rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   border-radius: 20px;
   background-color: #171f2d;
   cursor: pointer;
@@ -48,6 +52,24 @@ $primary-blue-2: #576dff;
   &:hover {
     img {
       transform: translateY(-10px);
+    }
+  }
+}
+@media screen and (max-width: 1200px) {
+  .skills-main {
+    margin: 2rem 5rem !important;
+  }
+}
+@media screen and (max-width: 700px) {
+  .skills-main {
+    margin: 2rem 3rem !important;
+  }
+  .skill-icons {
+    padding: 2rem 1rem;
+
+    img {
+      height: 75px;
+      width: 75px;
     }
   }
 }

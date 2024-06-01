@@ -250,7 +250,7 @@ $primary-blue-2: #576dff;
     }
   }
 }
-.skill-icons {
+.skill-icons-w {
   padding: 3rem;
   display: flex;
   flex-direction: column;
@@ -466,7 +466,7 @@ $primary-blue-2: #576dff;
     margin: 0 !important;
     padding: 1rem 3rem !important;
 
-    .skill-icons {
+    .skill-icons-w {
       transition: all 200ms ease-in-out;
       .skill-icon-1 {
         width: 150px !important;
@@ -481,7 +481,7 @@ $primary-blue-2: #576dff;
     }
 
     &:hover {
-      .skill-icons {
+      .skill-icons-w {
         img {
           transform: scale(1.2) !important;
         }
@@ -546,7 +546,7 @@ $primary-blue-2: #576dff;
     margin: 0 !important;
     padding: 1rem 3rem !important;
 
-    .skill-icons {
+    .skill-icons-w {
       .skill-icon-1 {
         width: 150px !important;
         padding: 0 !important;

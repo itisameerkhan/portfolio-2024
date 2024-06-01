@@ -20,8 +20,8 @@ const appRouter = createBrowserRouter([
   },
   {
     path: "/skills",
-    element: <Skills />,
-  },
+    element: <Skills />
+  }
 ]);
 
 ReactDOM.createRoot(document.getElementById("root")).render(
