@@ -5,6 +5,7 @@ import About from "./Pages/About/About.jsx";
 import Projects from "./Pages/Projects/Projects.jsx";
 import Skills from "./Pages/Skills/Skills.jsx";
 import Links from "./Pages/Links/Links.jsx";
+import Internship from "./Pages/Internship/Internship.jsx";
 
 const appRouter = createBrowserRouter([
   {
@@ -26,6 +27,10 @@ const appRouter = createBrowserRouter([
   {
     path: "/socials",
     element: <Links />,
+  },
+  {
+    path: "/internships",
+    element: <Internship />,
   },
 ]);
 
