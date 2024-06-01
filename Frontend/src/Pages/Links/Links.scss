@@ -1,28 +1,32 @@
 $primary-blue-1: #020617;
 $primary-blue-2: #576dff;
 
-.skills-main {
+.links {
   margin: 5rem 15rem;
-}
-.s-title {
-  font-size: 50px;
-  font-weight: 800;
-  text-align: center;
-}
-.s-t-1 {
-  color: $primary-blue-2;
-  font-size: 1.2rem;
-  text-align: center;
-}
-.skills-main-1 {
-  margin-top: 5rem;
   display: flex;
+  flex-direction: column;
   align-items: center;
-  justify-content: center;
-  gap: 2rem;
-  flex-wrap: wrap;
 }
-.skill-icons {
+.l-p-1 {
+  font-size: 1.2rem;
+  color: $primary-blue-2;
+  text-align: center;
+}
+.l-p-2 {
+  font-size: 56px;
+  text-align: center;
+  font-weight: 800;
+  width: 75%;
+}
+.l-div {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    margin-top: 5rem;
+}
+.l-icons {
   background: radial-gradient(
     75% 63.6% at 50% 2.5%,
     rgb(36, 115, 236) 0%,
@@ -32,16 +36,17 @@ $primary-blue-2: #576dff;
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-direction: column;
   border-radius: 20px;
   background-color: #171f2d;
   cursor: pointer;
   transition: all 200ms ease-in-out;
   position: relative;
+
   img {
     height: 109px;
     width: 109px;
     transition: all 200ms ease-in-out;
-    border-radius: 20px;
   }
   .s-m-name {
     position: absolute;
@@ -49,28 +54,9 @@ $primary-blue-2: #576dff;
     font-size: 1.2rem;
     font-weight: 600;
   }
-
   &:hover {
     img {
       transform: translateY(-10px);
-    }
-  }
-}
-@media screen and (max-width: 1200px) {
-  .skills-main {
-    margin: 2rem 5rem !important;
-  }
-}
-@media screen and (max-width: 700px) {
-  .skills-main {
-    margin: 2rem 3rem !important;
-  }
-  .skill-icons {
-    padding: 2rem 1rem;
-
-    img {
-      height: 75px;
-      width: 75px;
     }
   }
 }

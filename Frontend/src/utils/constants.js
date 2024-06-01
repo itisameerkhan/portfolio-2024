@@ -71,3 +71,86 @@ export const skills = [
   "git",
   "github",
 ];
+
+export const social = [
+  {
+    name: "instagram",
+    img: "https://skillicons.dev/icons?i=instagram",
+    link: "https://www.instagram.com/notrealkhan/",
+  },
+  {
+    name: "twitter",
+    img: "https://skillicons.dev/icons?i=twitter",
+    link: "https://x.com/itisameerkhan",
+  },
+  {
+    name: "github",
+    img: "https://skillicons.dev/icons?i=github",
+    link: "https://github.com/itisameerkhan",
+  },
+  {
+    name: "codepen",
+    img: "https://skillicons.dev/icons?i=codepen",
+    link: "https://codepen.io/itisameerkhan",
+  },
+  {
+    name: "Dev.to",
+    img: "https://skillicons.dev/icons?i=devto",
+    link: "https://dev.to/itisameerkhan",
+  },
+  {
+    name: "figma",
+    img: "https://skillicons.dev/icons?i=figma",
+    link: "https://www.figma.com/files/team/1332008407221698387/user/1179809368909639337?fuid=1179809368909639337",
+  },
+  {
+    name: "gmail",
+    img: "https://skillicons.dev/icons?i=gmail",
+    link: "mailto:itisameerkhan@gmail.com",
+  },
+  {
+    name: "linkedin",
+    img: "https://skillicons.dev/icons?i=linkedin",
+    link: "https://www.linkedin.com/in/itisameerkhan/",
+  },
+  {
+    name: "leetcode",
+    img: "https://user-images.githubusercontent.com/36547915/97088991-45da5d00-1652-11eb-900f-80d106540f4f.png",
+    link: "https://leetcode.com/itisameerkhan",
+  },
+  {
+    name: "hackerrank",
+    img: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/HackerRank_Icon-1000px.png/800px-HackerRank_Icon-1000px.png",
+    link: "https://www.hackerrank.com/profile/itisameerkhan",
+  },
+  {
+    name: "codechef",
+    img: "https://i.pinimg.com/originals/c5/d9/fc/c5d9fc1e18bcf039f464c2ab6cfb3eb6.jpg",
+    link: "https://www.codechef.com/users/itisameerkhan",
+  },
+  {
+    name: "frontendmentor",
+    img: "https://media.licdn.com/dms/image/C4D0BAQG_rUOmQjzleQ/company-logo_200_200/0/1630502611774?e=2147483647&v=beta&t=Bo583HpbnMiE2RjTOzLQevfrePQa4jmTo2cQ8ylnTzM",
+    link: "https://www.frontendmentor.io/profile/itisameerkhan",
+  },
+  {
+    name: "stackoverflow",
+    img: "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/Stack_Overflow_icon.svg/2048px-Stack_Overflow_icon.svg.png",
+    link: "https://stackoverflow.com/users/22639222/ameer-khan",
+  },
+  {
+    name: "codewars",
+    img: "https://pbs.twimg.com/profile_images/1750534926779236357/okHhHIys_400x400.jpg",
+    link: "https://www.codewars.com/users/itisameerkhan",
+  },
+  {
+    name: "youtube",
+    img: "https://img.freepik.com/free-psd/3d-icon-social-media-app_23-2150049567.jpg?size=338&ext=jpg&ga=GA1.1.2082370165.1717113600&semt=ais_user",
+    link: "https://www.youtube.com/@coffeewithkhan",
+  },
+  {
+    name: "medium",
+    img: "https://seekvectorlogo.com/wp-content/uploads/2021/12/medium-vector-logo-small-2021.png",
+    link: "https://medium.com/@itisameerkhan",
+  },
+];

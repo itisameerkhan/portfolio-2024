@@ -4,6 +4,7 @@ import { RouterProvider, createBrowserRouter } from "react-router-dom";
 import About from "./Pages/About/About.jsx";
 import Projects from "./Pages/Projects/Projects.jsx";
 import Skills from "./Pages/Skills/Skills.jsx";
+import Links from "./Pages/Links/Links.jsx";
 
 const appRouter = createBrowserRouter([
   {
@@ -20,8 +21,12 @@ const appRouter = createBrowserRouter([
   },
   {
     path: "/skills",
-    element: <Skills />
-  }
+    element: <Skills />,
+  },
+  {
+    path: "/socials",
+    element: <Links />,
+  },
 ]);
 
 ReactDOM.createRoot(document.getElementById("root")).render(
