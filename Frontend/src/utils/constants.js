@@ -34,4 +34,40 @@ export const projectDescription = [
     img: "https://res.cloudinary.com/dnyehgbeu/image/upload/v1717215535/jrcxzaqksyon4cuyrxoa.png",
     link: "https://airqualityindexsurvalliancesystem.vercel.app",
   },
+  {
+    title: "E-Commerce 2024",
+    description:
+      "Simple MERN Stack Web Application for E-Comerce and Admin page",
+    img: "https://res.cloudinary.com/dnyehgbeu/image/upload/v1717218234/nrd1zh3p04ps1lpuldac.png",
+    link: "https://github.com/itisameerkhan/ecommerce-clone-mern",
+  },
+  {
+    title: "Namaste Food",
+    description: "Food Ordering App with React by Namaste React",
+    img: "https://res.cloudinary.com/dnyehgbeu/image/upload/v1717218491/rqqxjjzb2agsnradzlgk.png",
+    link: "https://github.com/itisameerkhan/namaste-food",
+  },
+];
+
+export const skills = [
+  "react",
+  "nodejs",
+  "express",
+  "mongodb",
+  "c",
+  "cpp",
+  "java",
+  "python",
+  "html",
+  "css",
+  "sass",
+  "javascript",
+  "mysql",
+  "redux",
+  "vscode",
+  "vercel",
+  "figma",
+  "postman",
+  "git",
+  "github",
 ];
