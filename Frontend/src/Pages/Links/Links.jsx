@@ -1,8 +1,19 @@
 import Social from "../../components/Social/Social";
 import { social } from "../../utils/constants";
 import "./Links.scss";
+import { useEffect } from "react";
 
 const Links = () => {
+  useEffect(() => {
+    const scrollTop = () => {
+      window.scrollTo({
+        top: 0,
+        behavior: "smooth",
+      });
+    };
+    scrollTop();
+  }, []);
+  
   return (
     <div className="skills-main">
       <p className="s-t-1">SOCIALS</p>
