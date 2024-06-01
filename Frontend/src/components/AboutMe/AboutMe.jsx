@@ -23,7 +23,7 @@ const AboutMe = () => {
           alt=""
           className="about-me-img"
         />
-        <div className="aml-1">
+        <div className="aml-1" data-aos="fade-up">
           <p className="aml-1-title">Education</p>
           <div>
             <p>Bannari Amman Institute of Technology</p>
