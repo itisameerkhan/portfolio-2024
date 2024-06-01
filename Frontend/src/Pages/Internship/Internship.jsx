@@ -11,6 +11,7 @@ const Internship = () => {
     };
     scrollTop();
   }, []);
+
   return (
     <div className="internships-main">
       <p className="i-1">Internships and certificates</p>
