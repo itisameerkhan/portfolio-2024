@@ -1,6 +1,16 @@
 import "./Internship.scss";
+import { useEffect } from "react";
 
 const Internship = () => {
+  useEffect(() => {
+    const scrollTop = () => {
+      window.scrollTo({
+        top: 0,
+        behavior: "smooth",
+      });
+    };
+    scrollTop();
+  }, []);
   return (
     <div className="internships-main">
       <p className="i-1">Internships and certificates</p>
