@@ -3,7 +3,7 @@ import underline from "../../assets/underline.svg";
 import img22 from "../../imgs/img22.jpg";
 import img3 from "../../imgs/img3.jpg";
 import img4 from "../../imgs/img4.jpg";
-import img17 from "../../imgs/img17.jpg"
+import img17 from "../../imgs/img17.jpg";
 
 const Hero = () => {
   return (
