@@ -6,6 +6,7 @@ import Projects from "./Pages/Projects/Projects.jsx";
 import Skills from "./Pages/Skills/Skills.jsx";
 import Links from "./Pages/Links/Links.jsx";
 import Internship from "./Pages/Internship/Internship.jsx";
+import Footer from "./components/Footer/Footer.jsx";
 
 const appRouter = createBrowserRouter([
   {
@@ -14,23 +15,23 @@ const appRouter = createBrowserRouter([
   },
   {
     path: "/about",
-    element: <About />,
+    element: [<About />, <Footer />],
   },
   {
     path: "/projects",
-    element: <Projects />,
+    element: [<Projects />, <Footer />],
   },
   {
     path: "/skills",
-    element: <Skills />,
+    element: [<Skills />, <Footer />],
   },
   {
     path: "/socials",
-    element: <Links />,
+    element: [<Links />, <Footer />],
   },
   {
     path: "/internships",
-    element: <Internship />,
+    element: [<Internship />, <Footer />],
   },
 ]);
 

@@ -325,6 +325,7 @@ $primary-blue-2: #576dff;
   .overview {
     grid-template-columns: 200px;
     grid-template-rows: 200px;
+    height: auto !important;
   }
   .about {
     width: 200px;
