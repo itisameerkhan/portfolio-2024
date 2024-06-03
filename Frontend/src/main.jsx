@@ -7,31 +7,32 @@ import Skills from "./Pages/Skills/Skills.jsx";
 import Links from "./Pages/Links/Links.jsx";
 import Internship from "./Pages/Internship/Internship.jsx";
 import Footer from "./components/Footer/Footer.jsx";
+import Navbar from "./components/Navbar/Navbar.jsx";
 
 const appRouter = createBrowserRouter([
   {
     path: "/",
-    element: <App />,
+    element: [<Navbar />, <App />],
   },
   {
     path: "/about",
-    element: [<About />, <Footer />],
+    element: [<Navbar />, <About />, <Footer />],
   },
   {
     path: "/projects",
-    element: [<Projects />, <Footer />],
+    element: [<Navbar />, <Projects />, <Footer />],
   },
   {
     path: "/skills",
-    element: [<Skills />, <Footer />],
+    element: [<Navbar />, <Skills />, <Footer />],
   },
   {
     path: "/socials",
-    element: [<Links />, <Footer />],
+    element: [<Navbar />, <Links />, <Footer />],
   },
   {
     path: "/internships",
-    element: [<Internship />, <Footer />],
+    element: [<Navbar />, <Internship />, <Footer />],
   },
 ]);
 
