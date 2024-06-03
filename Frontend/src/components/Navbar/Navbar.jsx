@@ -25,6 +25,9 @@ const Navbar = () => {
         <Link to={"/projects"} onClick={() => setBtn(false)}>
           Projects
         </Link>
+        <Link to={"/skills"} onClick={() => setBtn(false)}>
+          Skills
+        </Link>
         <Link to={"/socials"} onClick={() => setBtn(false)}>
           Socials
         </Link>

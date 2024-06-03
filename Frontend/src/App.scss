@@ -1,5 +1,5 @@
 $primary-blue-1: #020617;
-$primary-blue-2: #576DFF;
+$primary-blue-2: #576dff;
 
 @font-face {
   font-family: "overusedgrotesk";
@@ -15,7 +15,7 @@ body {
   box-sizing: border-box;
   font-family: "Manrope", sans-serif;
   text-decoration: none;
-  color:white;
+  color: white;
 }
 
 ::-webkit-scrollbar {
@@ -30,4 +30,8 @@ body {
   background: $primary-blue-2;
   border-radius: 10px;
   width: 10px;
+}
+::selection {
+  color: white;
+  background: $primary-blue-2;
 }
