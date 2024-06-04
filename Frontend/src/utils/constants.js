@@ -47,6 +47,13 @@ export const projectDescription = [
     img: "https://res.cloudinary.com/dnyehgbeu/image/upload/v1717218491/rqqxjjzb2agsnradzlgk.png",
     link: "https://github.com/itisameerkhan/namaste-food",
   },
+  {
+    title: "Sign Language Detection",
+    description:
+      "Realtime Sign Language to Text Conversion with Teachable Machine",
+    img: "https://res.cloudinary.com/dnyehgbeu/image/upload/v1717474449/Portfolio/lc5ddyq1yaiukizhfkie.png",
+    link: "https://github.com/itisameerkhan/sign-language-detection-and-conversion-to-text-and-speech-recognition",
+  },
 ];
 
 export const skills = [
