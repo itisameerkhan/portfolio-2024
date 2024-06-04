@@ -82,7 +82,7 @@ const AboutMe = () => {
           </p>
         </div>
         <img
-          src="https://res.cloudinary.com/dnyehgbeu/image/upload/v1717145874/Portfolio/u5cc1xkuzym6x9pejixp.jpg"
+          src="https://res.cloudinary.com/dnyehgbeu/image/upload/v1717482476/vzpmpdzksh2v0mtfqxzm.jpg"
           alt=""
           className="about-me-img"
           data-aos="fade-up"
