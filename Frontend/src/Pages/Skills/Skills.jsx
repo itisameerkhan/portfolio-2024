@@ -13,7 +13,7 @@ const Skills = () => {
     };
     scrollTop();
   }, []);
-  
+
   return (
     <div className="skills-main">
       <p className="s-t-1">SKILLS</p>

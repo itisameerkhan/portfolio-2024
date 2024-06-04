@@ -4,6 +4,7 @@ import ProjectContainer from "../../components/ProjectContainer/ProjectContainer
 import { projectDescription } from "../../utils/constants";
 
 const Projects = () => {
+  
   useEffect(() => {
     const scrollTop = () => {
       window.scrollTo({
