@@ -5,7 +5,9 @@ const Footer = () => {
     <div className="footer">
       <p>
         © 2024
-        <span>Ameer khan</span>
+        <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank">
+          <span>Ameer khan</span>
+        </a>
       </p>
       <div>
         <a href="https://www.instagram.com/notrealkhan" target="_blank">
