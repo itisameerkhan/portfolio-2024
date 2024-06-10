@@ -1,4 +1,4 @@
-const Social = ({data}) => {
+const Social = ({ data }) => {
   return (
     <a href={data.link} target="_blank">
       <div className="skill-icons">

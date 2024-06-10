@@ -13,7 +13,7 @@ const Links = () => {
     };
     scrollTop();
   }, []);
-  
+
   return (
     <div className="skills-main">
       <p className="s-t-1">SOCIALS</p>
