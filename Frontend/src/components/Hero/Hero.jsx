@@ -23,7 +23,10 @@ const Hero = () => {
         />
         <img src={img22} alt="img" />
         <img src={img4} alt="img" />
-        <img src={img3} alt="img" />
+        <img
+          src="https://res.cloudinary.com/dnyehgbeu/image/upload/v1718086108/Portfolio/nc3nkywik8x2dutycdnw.jpg"
+          alt="img"
+        />
       </div>
     </div>
   );
