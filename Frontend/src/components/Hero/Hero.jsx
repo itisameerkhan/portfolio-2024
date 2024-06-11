@@ -1,7 +1,7 @@
 import "./Hero.scss";
 import underline from "../../assets/underline.svg";
 import img22 from "../../imgs/img22.jpg";
-import img3 from "../../imgs/img3.jpg";
+import img23 from "../../imgs/img23.jpg";
 import img4 from "../../imgs/img4.jpg";
 import img17 from "../../imgs/img17.jpg";
 
@@ -22,7 +22,7 @@ const Hero = () => {
           alt="img"
         />
         <img src={img22} alt="img" />
-        <img src={img4} alt="img" />
+        <img src={img23} alt="img" />
         <img
           src="https://res.cloudinary.com/dnyehgbeu/image/upload/v1718086108/Portfolio/nc3nkywik8x2dutycdnw.jpg"
           alt="img"
