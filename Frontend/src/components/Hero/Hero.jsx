@@ -2,8 +2,6 @@ import "./Hero.scss";
 import underline from "../../assets/underline.svg";
 import img22 from "../../imgs/img22.jpg";
 import img23 from "../../imgs/img23.jpg";
-import img4 from "../../imgs/img4.jpg";
-import img17 from "../../imgs/img17.jpg";
 
 const Hero = () => {
   return (
