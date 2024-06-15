@@ -161,3 +161,30 @@ export const social = [
     link: "https://medium.com/@itisameerkhan",
   },
 ];
+
+export const helloArray = [
+  "Hello", // English
+  "வணக்கம்", // Tamil
+  "ഹലോ", // Malayalam
+  "Bonjour", // French
+  "Hola", // Spanish
+  "Hallo", // German
+  "Ciao", // Italian
+  "Olá", // Portuguese
+  "こんにちは", // Japanese
+  "你好", // Chinese (Mandarin)
+  "안녕하세요", // Korean
+  "Здравствуйте", // Russian
+  "مرحبا", // Arabic
+  "नमस्ते", // Hindi
+  "ਸਤ ਸ੍ਰੀ ਅਕਾਲ", // Punjabi
+  "હેલો", // Gujarati
+  "ಹಲೋ", // Kannada
+  "హలో", // Telugu
+  "হ্যালো", // Bengali
+  "ਸਤ ਸ੍ਰੀ ਅਕਾਲ", // Punjabi
+  "สวัสดี", // Thai
+  "xin chào", // Vietnamese
+  "سلام", // Persian (Farsi)
+  "שלום", // Hebrew
+];
