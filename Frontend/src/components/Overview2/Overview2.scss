@@ -1,0 +1,107 @@
+$primary-blue-1: #020617;
+$primary-blue-2: #576dff;
+
+.overview-2 {
+  margin: 0rem 10rem;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 2rem;
+
+  div {
+    border: 2px solid $primary-blue-2;
+    padding: 2rem 3rem;
+    border-radius: 20px;
+    transition: all 200ms ease-in-out;
+    background-color: #18202d !important;
+    background: radial-gradient(
+      75% 63.6% at 50% 2.5%,
+      rgb(36, 115, 236) 0%,
+      rgba(99, 102, 241, 0) 100%
+    );
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+
+    a {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+
+      p {
+        font-size: 2rem;
+        font-weight: bolder;
+      }
+
+      span {
+        font-size: 2rem;
+        font-weight: bolder;
+        transition: all 100ms ease-in-out;
+      }
+    }
+  }
+}
+.spotify-grad {
+  border-radius: 10px;
+}
+.coming-soon {
+  opacity: 0.6;
+  cursor: none;
+  background: radial-gradient(
+    75% 63.6% at 50% 2.5%,
+    rgb(117, 168, 246) 0%,
+    rgba(20, 21, 49, 0) 100%
+  ) !important;
+}
+@media screen and (max-width: 1200px) {
+  .overview-2 {
+    margin: 0rem 7rem;
+  }
+}
+@media screen and (max-width: 1000px) {
+  .overview-2 {
+    margin: 0rem 7rem;
+
+    div {
+      padding: 1rem 3rem !important;
+
+      a {
+        p {
+          font-size: 1.5rem !important;
+        }
+      }
+    }
+  }
+}
+@media screen and (max-width: 800px) {
+  .overview-2 {
+    margin: 0rem 5rem;
+
+    div {
+      padding: 1rem 3rem !important;
+
+      a {
+        p {
+          font-size: 1rem !important;
+        }
+      }
+    }
+  }
+}
+@media screen and (max-width: 500px) {
+  .overview-2 {
+    height: auto !important;
+    margin: 5rem .9rem !important;
+
+    div {
+      padding: .8rem 1rem !important;
+
+      a {
+        p {
+          font-size: 1rem !important;
+        }
+      }
+    }
+  }
+}
