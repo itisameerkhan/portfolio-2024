@@ -54,6 +54,11 @@ export const projectDescription = [
     img: "https://res.cloudinary.com/dnyehgbeu/image/upload/v1717474449/Portfolio/lc5ddyq1yaiukizhfkie.png",
     link: "https://github.com/itisameerkhan/sign-language-detection-and-conversion-to-text-and-speech-recognition",
   },
+  {
+    title: "Grox Grocery App",
+    description: "E-Commerce Grocery Application made with React and Firebase",
+    img: "https://res.cloudinary.com/dnyehgbeu/image/upload/v1720707347/mockuper_9_nim7cf.png",
+    link:"grox.vercel.app"
 ];
 
 export const skills = [
