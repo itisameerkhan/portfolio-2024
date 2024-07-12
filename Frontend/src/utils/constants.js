@@ -58,7 +58,7 @@ export const projectDescription = [
     title: "Grox Grocery App",
     description: "E-Commerce Grocery Application made with React and Firebase",
     img: "https://res.cloudinary.com/dnyehgbeu/image/upload/v1720707347/mockuper_9_nim7cf.png",
-    link:"grox.vercel.app"
+    link:"https://grox.vercel.app"
   },
 ];
 
