@@ -47,7 +47,7 @@ $primary-blue-2: #576dff;
 }
 .coming-soon {
   opacity: 0.6;
-  cursor: none;
+  cursor:not-allowed !important;
   background: radial-gradient(
     75% 63.6% at 50% 2.5%,
     rgb(117, 168, 246) 0%,
