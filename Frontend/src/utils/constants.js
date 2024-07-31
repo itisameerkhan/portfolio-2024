@@ -77,7 +77,7 @@ export const skills = [
   "javascript",
   "mysql",
   "redux",
-  "vscode",
+  "aws",
   "firebase",
   "figma",
   "postman",
