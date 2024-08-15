@@ -64,7 +64,7 @@ export const projectDescription = [
     title: "Group Chat Application",
     description: "Group Chat Application made with React and Firebase",
     img: "https://res.cloudinary.com/dnyehgbeu/image/upload/v1723739097/mockuper_zpsnvc.png",
-    link:"https://groupchatfirebase.vercel.app"
+    link:"https://github.com/itisameerkhan/group-chat-app-firebase"
   },
 ];
 
