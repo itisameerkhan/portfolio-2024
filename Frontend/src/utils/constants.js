@@ -60,6 +60,12 @@ export const projectDescription = [
     img: "https://res.cloudinary.com/dnyehgbeu/image/upload/v1720707347/mockuper_9_nim7cf.png",
     link:"https://grox.vercel.app"
   },
+  {
+    title: "Group Chat Application",
+    description: "Group Chat Application made with React and Firebase",
+    img: "https://res.cloudinary.com/dnyehgbeu/image/upload/v1723739097/mockuper_zpsnvc.png",
+    link:"https://groupchatfirebase.vercel.app"
+  },
 ];
 
 export const skills = [
