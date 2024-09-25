@@ -6,7 +6,7 @@ const Footer = () => {
     <div className="footer">
       <p>
         © 2024
-        <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank">
+        <a href="https://selftimer.vercel.app" target="_blank">
           <span>Ameer khan</span>
         </a>
       </p>
