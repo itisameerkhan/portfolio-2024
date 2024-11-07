@@ -130,7 +130,7 @@ export const social = [
   {
     name: "linkedin",
     img: "https://skillicons.dev/icons?i=linkedin",
-    link: "https://www.linkedin.com/in/itisameerkhan/",
+    link: "https://www.linkedin.com/in/ameerameer/",
   },
   {
     name: "leetcode",
