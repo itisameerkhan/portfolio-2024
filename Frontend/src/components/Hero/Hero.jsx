@@ -22,7 +22,7 @@ const Hero = () => {
         <img src={img22} alt="img" />
         <img src={img23} alt="img" />
         <img
-          src="https://photos.google.com/photo/AF1QipNIrn053dAFHEkKNScsaNHKgj5NnzTKVTAlm1Y"
+          src="https://photos.fife.usercontent.google.com/pw/AP1GczMKIzAOH797eEinV3cmMjX-nYxiYLdzKT-MOeCNiTvtmFaRfRG4YvE=w659-h878-s-no-gm?authuser=0"
           alt="img"
         />
       </div>
