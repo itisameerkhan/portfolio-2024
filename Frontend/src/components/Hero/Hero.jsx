@@ -2,6 +2,7 @@ import "./Hero.scss";
 import underline from "../../assets/underline.svg";
 import img22 from "../../imgs/img22.jpg";
 import img23 from "../../imgs/img23.jpg";
+import img24 from "../../imgs/img24.jpg";
 
 const Hero = () => {
   return (
@@ -22,7 +23,7 @@ const Hero = () => {
         <img src={img22} alt="img" />
         <img src={img23} alt="img" />
         <img
-          src="https://photos.fife.usercontent.google.com/pw/AP1GczMKIzAOH797eEinV3cmMjX-nYxiYLdzKT-MOeCNiTvtmFaRfRG4YvE=w659-h878-s-no-gm?authuser=0"
+          src={img24}
           alt="img"
         />
       </div>
