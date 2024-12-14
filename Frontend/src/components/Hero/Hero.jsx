@@ -22,7 +22,7 @@ const Hero = () => {
         <img src={img22} alt="img" />
         <img src={img23} alt="img" />
         <img
-          src="https://res.cloudinary.com/dnyehgbeu/image/upload/v1718086108/Portfolio/nc3nkywik8x2dutycdnw.jpg"
+          src="https://photos.google.com/photo/AF1QipNIrn053dAFHEkKNScsaNHKgj5NnzTKVTAlm1Y"
           alt="img"
         />
       </div>
