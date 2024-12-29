@@ -1,6 +1,6 @@
 import "./Hero.scss";
 import underline from "../../assets/underline.svg";
-import img22 from "../../imgs/img22.jpg";
+import img26 from "../../imgs/img26.jpg";
 import img23 from "../../imgs/img23.jpg";
 import img24 from "../../imgs/img24.jpg";
 import img25 from "../../imgs/img25.jpg";
@@ -21,7 +21,7 @@ const Hero = () => {
           src={img25}
           alt="img"
         />
-        <img src={img22} alt="img" />
+        <img src={img26} alt="img" />
         <img src={img23} alt="img" />
         <img
           src={img24}
