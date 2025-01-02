@@ -8,11 +8,12 @@ import Overview2 from "./components/Overview2/Overview2";
 const App = () => {
   return (
     <div className="app">
-      <Hero />
+      {/* <Hero />
       <Context />
       <Overview />
       <Overview2 />
-      <Footer />
+      <Footer /> */}
+      server down.
     </div>
   );
 };
