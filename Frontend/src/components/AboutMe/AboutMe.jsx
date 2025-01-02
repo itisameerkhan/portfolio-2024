@@ -2,6 +2,7 @@ import { useEffect } from "react";
 import "./AboutMe.scss";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import img27 from "../../imgs/img27.jpg";
 
 const AboutMe = () => {
   useEffect(() => {
@@ -82,7 +83,7 @@ const AboutMe = () => {
           </p>
         </div>
         <img
-          src="https://res.cloudinary.com/dnyehgbeu/image/upload/v1717482476/vzpmpdzksh2v0mtfqxzm.jpg"
+          src={img27}
           alt=""
           className="about-me-img"
           data-aos="fade-up"
@@ -90,16 +91,10 @@ const AboutMe = () => {
         <div className="amr-2" style={{ marginTop: 0 }} data-aos="fade-up">
           <p>What I’m doing now.</p>
           <p>
-            I am currently learning MERN stack development, diving deep into
-            MongoDB, Express, React, and Node.js to build full-stack
-            applications. Enhancing my skills in both frontend and backend
-            development.
+            This is my favourite person name is Farzana Mahamad too extrovert. we spent most of the time loving, caring, fighting, vibing, walking. but I liked caring. she revived when I feel loneliness. she helped me clearing the qualification assessment and stream training.
           </p>
           <p>
-            Alongside this, I am honing my problem-solving abilities with Java,
-            C, C++, and MySQL, tackling complex challenges and optimizing
-            solutions. I am open to work and eager to apply my growing
-            expertise.
+            we will also vibe more in future. but first we need follow R.U.L.E.S 💖
           </p>
         </div>
       </div>
