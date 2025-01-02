@@ -51,7 +51,7 @@ const AboutMe = () => {
           </div>
         </div>
         <img
-          src="https://res.cloudinary.com/dnyehgbeu/image/upload/v1717145876/Portfolio/vlgoruf8pckvmebnphev.jpg"
+          src={img27}
           alt=""
           className="about-me-img"
           data-aos="fade-up"
@@ -83,7 +83,7 @@ const AboutMe = () => {
           </p>
         </div>
         <img
-          src={img27}
+          src="https://res.cloudinary.com/dnyehgbeu/image/upload/v1717145876/Portfolio/vlgoruf8pckvmebnphev.jpg"
           alt=""
           className="about-me-img"
           data-aos="fade-up"
