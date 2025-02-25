@@ -89,12 +89,18 @@ const AboutMe = () => {
           data-aos="fade-up"
         />
         <div className="amr-2" style={{ marginTop: 0 }} data-aos="fade-up">
-          <p>What I’m doing now.</p>
+        <p>What I’m doing now.</p>
           <p>
-            This is my favourite person name is Farzana Mahamad too extrovert. we spent most of the time loving, caring, fighting, vibing, walking. but I liked caring. she revived when I feel loneliness. she helped me clearing the qualification assessment and stream training.
+            I am currently learning MERN stack development, diving deep into
+            MongoDB, Express, React, and Node.js to build full-stack
+            applications. Enhancing my skills in both frontend and backend
+            development.
           </p>
           <p>
-            we will also vibe more in future. but first we need follow R.U.L.E.S 💖
+            Alongside this, I am honing my problem-solving abilities with Java,
+            C, C++, and MySQL, tackling complex challenges and optimizing
+            solutions. I am open to work and eager to apply my growing
+            expertise.
           </p>
         </div>
       </div>
