@@ -3,6 +3,7 @@ import "./AboutMe.scss";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import img27 from "../../imgs/img27.jpg";
+import img9 from "../../imgs/img9.jpg";
 
 const AboutMe = () => {
   useEffect(() => {
@@ -51,7 +52,7 @@ const AboutMe = () => {
           </div>
         </div>
         <img
-          src={img27}
+          src={img9}
           alt=""
           className="about-me-img"
           data-aos="fade-up"
