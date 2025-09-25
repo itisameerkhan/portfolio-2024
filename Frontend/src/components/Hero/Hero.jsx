@@ -4,7 +4,7 @@ import img26 from "../../imgs/img26.jpg";
 import img23 from "../../imgs/img23.jpg";
 import img24 from "../../imgs/img24.jpg";
 import img25 from "../../imgs/img25.jpg";
-import img1 from "../../imgs/img1.jpg";
+import img2 from "../../imgs/img2.jpg";
 
 const Hero = () => {
   return (
@@ -19,7 +19,7 @@ const Hero = () => {
       </p>
       <div className="hero-img">
         <img
-          src={img1}
+          src={img2}
           alt="img"
         />
         <img src={img26} alt="img" />
